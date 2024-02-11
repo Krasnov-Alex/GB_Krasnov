@@ -1,9 +1,9 @@
 # GB_Krasnov
-#Tengu_Love
+# Tengu_Love
 
-#Классы и их описание:
+# Классы и их описание:
 
-#class ButtonsManager;
+# class ButtonsManager;
   Класс управляющий всеми кнопками;
   Содержит методы:
     void RestartLvL();
@@ -17,7 +17,7 @@
     void ExitGame();
       Выходит из игры, используется в сцене 0(меню);
       
-#class PlayerInput;
+# class PlayerInput;
   Принимает пользовательский ввод;
   Содержит методы:
     void Awake();
@@ -25,7 +25,7 @@
     void Update();
       Передаем в класс PlayerMovement() нажатые кнопки;
       
-#class PlayerMovement;
+# class PlayerMovement;
   Класс, отвечающий за перемещение игрока;
   Содержит методы:
     void Awake();
@@ -50,7 +50,7 @@
     void Jump();
       Из метода Move() сюда передается нажата ли кнопка прыжка;
       
-#class PlayerAnimation;
+# class PlayerAnimation;
   Контролирует анимацию игрока;
   Содержит методы:
     void Start();
@@ -58,7 +58,7 @@
     void Update();
       Переключение параметров "isGrounded" и "Velocity" для переключения между анимациями движения/спокойствия/прыжка;
       
-#class ActionController;
+# class ActionController;
   Служит для анимации переключателя и включения/отключения препятствия;
   Содержит методы:
     void Awake();
@@ -66,13 +66,13 @@
     void DoorController();
       Включает и выключает препятствие активируется в классе PlayerMovement в методе Action();
 
-#class Death;
+# class Death;
   Отслеживает падение игрока сквозь платформы, активирует Canvas проигрыша;
   Содержит методы:
     void OnTriggerEnter2D();
       Проверяет вошел в триггер игрок или другой объект по тегу, активирует Canvas проигрыша, отключает управление;
 
-#class Finish;
+# class Finish;
   Отслеживает прохождение игроком уровня включает анимацию появления "приза";
   Содержит методы:
     void Awake();
