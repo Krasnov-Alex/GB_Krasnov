@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Switch
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Ground
+  - Water
+  - UI
+  - Player
+  - Object
+  - Switch
+  - Environment
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Back
+    uniqueID: 3976083639
+    locked: 0
+  - name: Environment
+    uniqueID: 1312012537
+    locked: 0
+  - name: Objects
+    uniqueID: 2736970655
+    locked: 0
+  - name: Tilemap
+    uniqueID: 279595799
+    locked: 0
+  - name: Player
+    uniqueID: 1400890833
+    locked: 0
