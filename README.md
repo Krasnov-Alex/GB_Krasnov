@@ -10,6 +10,8 @@
   В игре используется японская мифология, 
   главный герой Тенгу, который должен спасти Кицунэ.
 
+  Ссылки на спрайты в конце документа.
+
 # Классы и их описание:
 
 # class ButtonsManager;
@@ -117,3 +119,15 @@
       
     void OnTriggerEnter2D();
       Проверяет вошел в триггер игрок или другой объект по тегу, активирует Canvas победы, отключает управление;
+
+
+# Ссылки:
+Главный герой и Кицунэ:  https://craftpix.net/freebies/free-yokai-pixel-art-character-sprites/
+
+Тайлы, фон, окружение:   https://craftpix.net/freebies/free-yokai-pixel-art-character-sprites/
+
+UI:                      https://craftpix.net/freebies/free-yokai-pixel-art-character-sprites/
+
+Шрифт Cyrillic Pixel-7:  https://pixelbox.ru/top-10-autentichnyh-pikselnyh-shriftov-s-podderzhkoy-kirillitsy
+
+Фон в меню:              https://wallpapers.com/wallpapers/tengu-1920-x-1080-wallpaper-mi8ntgj8dld720mx.html
