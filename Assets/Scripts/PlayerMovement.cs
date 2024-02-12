@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Transform circleCollider;
     [SerializeField] private LayerMask groundMask;
     [SerializeField] private float jumpOffset;
+    private SoundControl sound;
     public Rigidbody2D playerRigidbody;
     private SpriteRenderer sR;
     private GameObject let;
@@ -16,6 +17,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Awake()
     {
+        sound = GameObject.Find("MainCanvas").GetComponent<SoundControl>();
         playerRigidbody = GetComponent<Rigidbody2D>();
         sR = GetComponent<SpriteRenderer>();
         Time.timeScale = 1.5f;
@@ -94,6 +96,7 @@ public class PlayerMovement : MonoBehaviour
         if (isGrounded)
         {
             playerRigidbody.velocity = new Vector2(playerRigidbody.velocity.x, jumpForce);
+            sound.JumpSound();
         }
     }
 }
